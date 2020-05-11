@@ -17,9 +17,9 @@ sidebar:
     website: iammehta.io #do not add http://
     linkedin: ""
     github: sandymehta
-    gitlab:
-    bitbucket:""
-    twitter: ''
+    # gitlab:
+    # bitbucket:""
+    # twitter: ''
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
