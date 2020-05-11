@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sandeep Mehta
+    tagline: Data Opertation Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sandeep26nov@gmail.com
+    phone: +44 07540419513
+    website: iammehta.io #do not add http://
+    linkedin: ""
+    github: sandymehta
+    gitlab:
+    bitbucket:""
+    twitter: ''
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+
+    interests:
+      - item: Climbing
+        link:
+
+      - item: Skiiing
+        link:
+
+      - item: Cooking
+        link:
+      
+      - item: Cricket
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+    A versatile, result driven Data Operations Engineer with experience in designing, executing and maintaining Data Pipelines and Data Platforms, also automating complex pipelines and solutions for complex Big Data and large-scale Data warehouse projects.
+
+
+education:
+    - degree: Bachelor in Technology(Information Technology)
+      university: Graphic Era University, Dehradun, India
+      time: 2008 - 2012
+
+experiences:
+    - role: Data Ops Engineer
+      time: 09/2019 - Present
+      company: Babylon Health, London
+      details: |
+        Designing, creating and managing Data platform compnents such as Kafka Clusters, Kafka Connect, Debezium, AWS RDS, GCP, Big-Query
+        and much more inside Data Team. Co-ordinating with all the teams in Data Tribe to deploy services and data pipleines. A lot of metrics and dashboards creation as well.
+          - Developing applications to build and extend Data platform.
+          - Build a Kafka Connect Manager to manage connectors in CI/CD way.
+          - Design and implement automation  for users to create data pipelines quickly and easily.
+          - Owning the design, build, monitoring and expansion of the data platform.
+          - Work closely with various teams and stakeholders everyday to improve existing services on Kubernetes and define standards, best practices and create new services.
+          - Tech Stack: Kubernetes, Kafka, Python, Docker, AWS, GCP, Terraform, Ansible, Debezium, Kafka Connect
+    - role: Data Engineer
+      time: 06/2019 to 11/2019
+      company: Quantum Black, London
+      details: |
+          - Working with Clients and Data Scientists to curate, transform and construct features for
+          modelling algorithms.
+          - Ownership for setting up infrastructure and creating Data pipelines.
+          - Work intensively on Jupyter notebooks and Databricks for Data explorations.
+          - Define tech stack and collaborate towards R&D labs. 
+          - Tech Stack: Pyspark, Python, AWS, Databricks, HDFS, Kafka
+    - role: Data Engineer
+      time: 06/2018 - 05/2019 
+      company: Funding Circle, London
+      details: |
+          - Created real time pipelines using Kafka Connect, Kafka Streams,Clojure, Python, AWS,Postgres to bring data from core sources of business into DataWarehouse.
+          - Created multiple tools and applications to automate the development, monitoring and maintaining the pipelines.
+          - Have ownership on your own projects and adhering to use of an agile way of working.
+          - Worked on projects that support the business in product improvement, growth engineering in order to facilitate more efficient marketing analysis and improvement of our risk models using machine learning.
+          - Tech Stack: Clojure, Python, AWS Glue, Kafka, Kafka Connect, Kafka Streams, Postgres, Athena
+    - role: Big Data Engineer
+      time: 02/2016 - 05/2018
+      company: Worldpay UK, London
+      details: |
+          - Developed, tested and implemented various ETL pipelines and real-time applications load data from 130+ sources into HDFS using Spark, Kafka, HBase, MapReduce, 
+            Hive on TEZ, Sqoop, Oozie, Ambari, Scala, Shell and Python scripting and other big data related technologies on Hortonworks Platform.
+          - Took on the release management responsibilities and coordinated the delivery of releases using GIT version control.
+          - Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.
+          - Worked in the Agile environment using Kanban and contributed in key decision document sessions.
+          - Lead the handover of the existing project to the offshore team and supported them with key decisions.
+    - role: Big Data Consultant
+      time: 02/2014 to 10/2015
+      company: Accenture, India/UK
+      details: |
+          -  Worked for Virgin Media client as Big Data Engineer; planned, designed and developed multiple modules in the project to handle Customer Calls related data and store in HDFS using Kafka,
+             Map Reduce, Hive, Pig, Oozie, Flume environment as network files and developed a data warehouse to extract Network Usage Related reports.
+          - Maintained the contact between stakeholders and Release Management offshore team and coordinated the delivery of components.
+          - Worked in Waterfall model and also undertook training Technologies related to Big Data Technologies like Kafka, Spark, etc.
+          - Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.
+    - role: DataWarehouse Consultant
+      time: 07/2012 to 01/2014
+      company: Accenture, India/UK
+      details: |
+          -  Worked for Virgin Media client (onsite in the UK )as Data Warehouse consultant, coordinating the
+            analysis, design, and extraction of encounter data from multiple source systems into the data warehouse.          
+          - Mediator between reporting team and business to ensure delivery of final products on time and without failures.
+          - Used ER/Studios for logical and physical dimensional data modeling to support data architecture.Designed and developed Star Schema dimension 
+            and fact tables to support data warehouse requirements for the Sales, Customer, General Ledger and Police Unit modules.
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+      - name: Kafka
+      - name: Docker
+      - name: Kubernetes
+      - name: AWS
+      - name: GCP Big Query
+      - name: Terraform
+      - name: Ansible
+      - name: Debezium
+      - name: HDFS
+      - name: Spark
+      - name: Hive
+
